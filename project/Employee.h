@@ -15,7 +15,6 @@ public:
 		}
 		else {
 			this->salary = 0;
-			
 		}
 	};
 
