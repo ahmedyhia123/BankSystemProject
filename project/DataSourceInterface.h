@@ -4,9 +4,9 @@
 
 class DataSourceInterface {
 public:
-    virtual void addClient(const Client& client) = 0;
-    virtual void addEmployee(const Employee& employee) = 0;
-    virtual void addAdmin(const Admin& admin) = 0;
+    virtual void addClient() = 0;
+    virtual void addEmployee() = 0;
+    virtual void addAdmin() = 0;
 
     virtual void  getAllClients() = 0;
     virtual void getAllEmployees() = 0;

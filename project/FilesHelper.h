@@ -68,9 +68,6 @@ public:
 	}
 
 	static void getClients() {
-		if (!AllClients.empty()) {
-			AllClients.clear();
-		}
 		ifstream ClientsData("Clients.txt");
 		if (ClientsData.is_open()) {
 			string line;
@@ -86,9 +83,6 @@ public:
 	}
 
 	static void getEmployees() {
-		if (!AllEmployees.empty()) {
-			AllEmployees.clear();
-		}
 		ifstream EmployeesData("Employee.txt");
 		if (EmployeesData.is_open()) {
 			string line;
@@ -104,9 +98,6 @@ public:
 	}
 
 	static void getAdmins() {
-		if (!AllAdmins.empty()) {
-			AllAdmins.clear();
-		}
 		ifstream AdminsData("Admins.txt");
 		if (AdminsData.is_open()) {
 			string line;
