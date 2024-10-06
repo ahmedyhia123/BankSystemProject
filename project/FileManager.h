@@ -1,6 +1,8 @@
 #pragma once
 #include "DataSourceInterface.h"
 #include "FilesHelper.h"
+#include "Employee.h"
+
 class FileManager : public DataSourceInterface
 {
 public:
@@ -39,4 +41,3 @@ public:
 
 
 };
-

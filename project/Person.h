@@ -23,7 +23,7 @@ public:
 			this->password = password;
 		};
 	};
-	Person(string name, string password)  {
+	Person(string name, string password) {
 
 		if (Validation::validationName(name)) {
 			this->name = name;
@@ -43,7 +43,7 @@ public:
 		}
 		this->name = name;
 	}
-	
+
 	void setPassword(string password)
 	{
 		while (!Validation::validationPass(password)) {
@@ -52,7 +52,7 @@ public:
 		}
 		this->password = password;
 	}
-	
+
 	//Getter
 	string getName()
 	{

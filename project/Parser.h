@@ -16,16 +16,16 @@ public:
 
     //get all words of string after and before "-"
     static vector<string> split(const string line, char dash = '-') {
-        vector<string> result; 
-        stringstream ss(line); 
+        vector<string> result;
+        stringstream ss(line);
         string word;
 
-       
+
         while (getline(ss, word, dash)) {
-            result.push_back(word); 
+            result.push_back(word);
         }
 
-        return result;  
+        return result;
     }
 
     //get string line contain client date and return it as a client object
@@ -72,4 +72,3 @@ public:
 
 
 };
-

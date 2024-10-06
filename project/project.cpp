@@ -14,9 +14,6 @@ using namespace std;
 
 int main()
 {
-	FileManager::removeAllAdmins();
-	FileManager::removeAllClients();
-	FileManager::removeAllEmployees();
 	
-
+	
 }

@@ -19,7 +19,7 @@ public:
 	//Save last object id
 	static void saveLast(string path, int id) {
 		ofstream lastId(path);
-		
+
 		if (lastId.is_open()) {
 			lastId << id;
 			lastId.close();
@@ -55,10 +55,9 @@ public:
 		ofstream saveEmployee(fileName, ios::app);
 		if (saveEmployee.is_open()) {
 			int id = getLast(lastIdFile) + 1;
-			saveLast(lastIdFile, e.getId());
 			saveEmployee << id << "-" << e.getName() << "-" << e.getPassword() << "-" << e.getSalary() << endl;
-		saveLast(lastIdFile, id);
-		saveEmployee.close();
+			saveLast(lastIdFile, id);
+			saveEmployee.close();
 		}
 		else {
 			cout << "Can't open file\n";
@@ -113,20 +112,19 @@ public:
 	}
 
 	static void clearFile(string fileName, string lastIdFile) {
-		
-			
-			ofstream file(fileName, ios::trunc);
-			if (file.is_open()) {
-				
-				file.close();
-			}
-			else {
-				cout << "Can't open the file to clear contents.\n";
-			}
 
-			saveLast(lastIdFile, 0);
+
+		ofstream file(fileName, ios::trunc);
+		if (file.is_open()) {
+
+			file.close();
+		}
+		else {
+			cout << "Can't open the file to clear contents.\n";
+		}
+
+		saveLast(lastIdFile, 0);
 
 	}
 
 };
-

@@ -40,14 +40,14 @@ public:
 			cin >> firstDeposit;
 		}
 
-		this ->balance = firstDeposit;
+		this->balance = firstDeposit;
 
 	}
 	double getBalance() {
 		return balance;
 	}
-	
-	
+
+
 	//Method
 	void deposit(double amount)
 	{
@@ -89,7 +89,7 @@ public:
 	}
 	void displayInfo()
 	{
-		cout << "Person Details:" << endl;
+		cout << "Client Details:" << endl;
 		Person::displayInfo();
 		cout << "Balance : " << balance << endl;
 	}

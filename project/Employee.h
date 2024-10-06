@@ -1,13 +1,18 @@
 #pragma once
 #include "Person.h"
-
+#include "Client.h"
+#include <iostream>
+#include<vector>
 #include "Validation.h"
+#include <utility>
+using namespace std;
+
 class Employee : public Person
 {
 private:
 	double salary;
 public:
-	Employee(): salary(0) {};
+	Employee() : salary(0) {};
 	Employee(int id, string name, string password, double salary)
 		: Person(id, name, password) {
 		if (Validation::validationSalary(salary)) {
@@ -41,6 +46,44 @@ public:
 	double getSalary()
 	{
 		return salary;
+	}
+	void addClient(Client& c) {
+		AllClients.push_back(c);
+	}
+
+	pair< Client*, bool> searchClient(int id) {
+		for (int i = 0; i < AllClients.size(); i++) {
+			if (AllClients[i].getId() == id) {
+				return { &AllClients[i],true };
+			}
+		}
+
+		return { nullptr,false };
+	}
+	void listClient() {
+		if (AllClients.empty()) {
+			cout << "No Clients Found !! \n";
+			return;
+		}
+
+		for (int i = 0; i < AllClients.size(); i++) {
+
+			AllClients[i].displayInfo();
+			cout << endl << "----------------------------\n";
+		}
+	}
+	void editClient(int id, string name, string password, double balance) {
+		pair<Client*,bool> client = searchClient(id);
+		if (client.second) {
+			client.first->setName(name);
+			client.first->setPassword(password);
+			client.first->setBalance(balance);
+			cout << "Client Edited Successfully\n";
+		}
+		else {
+			cout << "Client with ID " << id << " not found.\n";
+		}
+
 	}
 	void displayInfo()
 	{
