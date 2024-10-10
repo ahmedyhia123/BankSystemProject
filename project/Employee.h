@@ -5,6 +5,7 @@
 #include<vector>
 #include "Validation.h"
 #include <utility>
+#include "FileManager.h"
 using namespace std;
 
 class Employee : public Person
@@ -48,17 +49,19 @@ public:
 		return salary;
 	}
 	void addClient(Client& c) {
+		FileManager x;
 		AllClients.push_back(c);
+		x.updateClientsData();
 	}
 
-	pair< Client*, bool> searchClient(int id) {
+	 Client* searchClient(int id) {
 		for (int i = 0; i < AllClients.size(); i++) {
 			if (AllClients[i].getId() == id) {
-				return { &AllClients[i],true };
+				return  &AllClients[i] ;
 			}
 		}
 
-		return { nullptr,false };
+		return  nullptr;
 	}
 	void listClient() {
 		if (AllClients.empty()) {
@@ -73,17 +76,18 @@ public:
 		}
 	}
 	void editClient(int id, string name, string password, double balance) {
-		pair<Client*,bool> client = searchClient(id);
-		if (client.second) {
-			client.first->setName(name);
-			client.first->setPassword(password);
-			client.first->setBalance(balance);
+		FileManager x;
+		Client* client = searchClient(id);
+		if (client != nullptr) {
+			client->setName(name);
+			client->setPassword(password);
+			client->setBalance(balance);
 			cout << "Client Edited Successfully\n";
 		}
 		else {
 			cout << "Client with ID " << id << " not found.\n";
 		}
-
+		x.updateClientsData();
 	}
 	void displayInfo()
 	{

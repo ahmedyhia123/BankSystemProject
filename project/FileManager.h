@@ -7,37 +7,62 @@ class FileManager : public DataSourceInterface
 {
 public:
 
-	static void addClient(Client c) {
+	 void addClient(Client c) {
 		FilesHelper::saveClient(c);
 	}
-	static void addEmployee(Employee e) {
-		FilesHelper::saveEmployee("Employee.txt", "LastEmployeeId.txt", e);
+	 void addEmployee(Employee e) {
+		FilesHelper::saveEmployee( e);
 	}
 
-	static void addAdmin(Employee a) {
-		FilesHelper::saveEmployee("Admin.txt", "LastAdminId.txt", a);
+	 void addAdmin(Admin a) {
+		FilesHelper::saveAdmin(a);
 	}
-	static void getAllClients() {
+	 void getAllClients() {
 		FilesHelper::getClients();
 	}
-	static void getAllEmployees() {
+	 void getAllEmployees() {
 		FilesHelper::getEmployees();
 	}
-	static void getAllAdmins() {
+	 void getAllAdmins() {
 		FilesHelper::getAdmins();
 	}
 
-	static void removeAllClients() {
+	 void removeAllClients() {
 		FilesHelper::clearFile("Clients.txt", "LastClientId.txt");
 	}
-	static void removeAllEmployees() {
+	 void removeAllEmployees() {
 		FilesHelper::clearFile("Employee.txt", "LastEmployeeId.txt");
 	}
-	static void removeAllAdmins() {
+	 void removeAllAdmins() {
 		FilesHelper::clearFile("Admin.txt", "LastAdminId.txt");
 	}
 
+	 void updateClientsData() {
+		 removeAllClients();
 
+		 for (int i = 0; i < AllClients.size(); i++) {
+			
+			 addClient(AllClients[i]);
+
+		 }
+	 }
+	 void updateEmployeesData() {
+		 removeAllEmployees();
+		
+		 for (int i = 0; i < AllEmployees.size(); i++) {
+
+			 addEmployee(AllEmployees[i]);
+		 }
+	 }
+	 void updateAdminsData() {
+		 removeAllAdmins();
+
+		 for (int i = 0; i < AllAdmins.size(); i++) {
+
+			 addAdmin(AllAdmins[i]);
+
+		 }
+	 }
 
 
 };

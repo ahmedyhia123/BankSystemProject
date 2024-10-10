@@ -50,14 +50,27 @@ public:
 		}
 	}
 
-	static void saveEmployee(string fileName, string lastIdFile, Employee e) {
+	static void saveEmployee( Employee e) {
 
-		ofstream saveEmployee(fileName, ios::app);
+		ofstream saveEmployee("Employee.txt", ios::app);
 		if (saveEmployee.is_open()) {
-			int id = getLast(lastIdFile) + 1;
+			int id = getLast("LastEmployeeId.txt") + 1;
 			saveEmployee << id << "-" << e.getName() << "-" << e.getPassword() << "-" << e.getSalary() << endl;
-			saveLast(lastIdFile, id);
+			saveLast("LastEmployeeId.txt", id);
 			saveEmployee.close();
+		}
+		else {
+			cout << "Can't open file\n";
+		}
+	}
+	static void saveAdmin(Admin e) {
+
+		ofstream saveAdmin("Admin.txt", ios::app);
+		if (saveAdmin.is_open()) {
+			int id = getLast("LastAdminId.txt") + 1;
+			saveAdmin << id << "-" << e.getName() << "-" << e.getPassword() << "-" << e.getSalary() << endl;
+			saveLast("LastAdminId.txt", id);
+			saveAdmin.close();
 		}
 		else {
 			cout << "Can't open file\n";

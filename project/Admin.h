@@ -17,17 +17,20 @@ public:
 	//Methods
 
 	void addEmployee(Employee& c) {
+		FileManager x;
+
 		AllEmployees.push_back(c);
+		x.updateEmployeesData();
 	}
 
-	pair<Employee*,bool> searchEmployee(int id) {
+	Employee* searchEmployee(int id) {
 		for (int i = 0; i < AllEmployees.size(); i++) {
 			if (AllEmployees[i].getId() == id) {
-				return {&AllEmployees[i], true};
+				return &AllEmployees[i];
 			}
 		}
 
-		return { nullptr,false };
+		return  nullptr;
 	}
 	void listEmployee() {
 		if (AllEmployees.empty()) {
@@ -41,16 +44,19 @@ public:
 		}
 	}
 	void editEmployee(int id, string name, string password, double salary) {
-		pair<Employee*,bool> employee = searchEmployee(id);
-		if (employee.second) {
-			employee.first->setName(name);
-			employee.first->setPassword(password);
-			employee.first->setSalary(salary);
+		FileManager x;
+
+		Employee* employee = searchEmployee(id);
+		if (employee != nullptr) {
+			employee->setName(name);
+			employee->setPassword(password);
+			employee->setSalary(salary);
 			cout << "Employee Edited Successfully\n";
 		}
 		else {
 			cout << "Employee with ID " << id << " not found.\n";
 		}
+		x.updateEmployeesData();
 
 	}
 

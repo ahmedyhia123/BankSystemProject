@@ -1,5 +1,1025 @@
-﻿  FileManager.cpp
+﻿  Admin.cpp
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\DataSourceInterface.h(11,30): error C2061: syntax error: identifier 'Employee'
+  (compiling source file 'Admin.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\DataSourceInterface.h(12,27): error C2061: syntax error: identifier 'Admin'
+  (compiling source file 'Admin.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Parser.h(47,21): error C3646: 'parseToEmployee': unknown override specifier
+  (compiling source file 'Admin.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Parser.h(47,37): error C2275: 'std::string': expected an expression instead of a type
+  (compiling source file 'Admin.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Parser.h(47,44): error C2146: syntax error: missing ')' before identifier 'line'
+  (compiling source file 'Admin.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Parser.h(47,50): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+  (compiling source file 'Admin.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Parser.h(61,18): error C3646: 'parseToAdmin': unknown override specifier
+  (compiling source file 'Admin.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Parser.h(61,31): error C2275: 'std::string': expected an expression instead of a type
+  (compiling source file 'Admin.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Parser.h(61,38): error C2146: syntax error: missing ')' before identifier 'line'
+  (compiling source file 'Admin.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Parser.h(61,44): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+  (compiling source file 'Admin.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FilesHelper.h(53,28): error C2061: syntax error: identifier 'Employee'
+  (compiling source file 'Admin.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FilesHelper.h(66,24): error C2061: syntax error: identifier 'Admin'
+  (compiling source file 'Admin.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FilesHelper.h(58,33): error C2065: 'e': undeclared identifier
+  (compiling source file 'Admin.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FilesHelper.h(58,55): error C2065: 'e': undeclared identifier
+  (compiling source file 'Admin.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FilesHelper.h(58,81): error C2065: 'e': undeclared identifier
+  (compiling source file 'Admin.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FilesHelper.h(71,30): error C2065: 'e': undeclared identifier
+  (compiling source file 'Admin.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FilesHelper.h(71,52): error C2065: 'e': undeclared identifier
+  (compiling source file 'Admin.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FilesHelper.h(71,78): error C2065: 'e': undeclared identifier
+  (compiling source file 'Admin.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FilesHelper.h(102,22): error C2039: 'parseToEmployee': is not a member of 'Parser'
+  (compiling source file 'Admin.cpp')
+      C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Parser.h(13,7):
+      see declaration of 'Parser'
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FilesHelper.h(102,22): error C3861: 'parseToEmployee': identifier not found
+  (compiling source file 'Admin.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FilesHelper.h(103,5): error C2065: 'AllEmployees': undeclared identifier
+  (compiling source file 'Admin.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FilesHelper.h(117,22): error C2039: 'parseToAdmin': is not a member of 'Parser'
+  (compiling source file 'Admin.cpp')
+      C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Parser.h(13,7):
+      see declaration of 'Parser'
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FilesHelper.h(117,22): error C3861: 'parseToAdmin': identifier not found
+  (compiling source file 'Admin.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FilesHelper.h(118,5): error C2065: 'AllAdmins': undeclared identifier
+  (compiling source file 'Admin.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FileManager.h(13,20): error C2061: syntax error: identifier 'Employee'
+  (compiling source file 'Admin.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FileManager.h(17,17): error C2061: syntax error: identifier 'Admin'
+  (compiling source file 'Admin.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FileManager.h(14,30): error C2065: 'e': undeclared identifier
+  (compiling source file 'Admin.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FileManager.h(18,26): error C2065: 'a': undeclared identifier
+  (compiling source file 'Admin.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FileManager.h(52,24): error C2065: 'AllEmployees': undeclared identifier
+  (compiling source file 'Admin.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FileManager.h(54,17): error C2065: 'AllEmployees': undeclared identifier
+  (compiling source file 'Admin.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FileManager.h(54,5): error C2660: 'FileManager::addEmployee': function does not take 1 arguments
+  (compiling source file 'Admin.cpp')
+      C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FileManager.h(13,8):
+      see declaration of 'FileManager::addEmployee'
+      C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FileManager.h(54,5):
+      while trying to match the argument list '()'
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FileManager.h(60,24): error C2065: 'AllAdmins': undeclared identifier
+  (compiling source file 'Admin.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FileManager.h(62,14): error C2065: 'AllAdmins': undeclared identifier
+  (compiling source file 'Admin.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FileManager.h(62,5): error C2660: 'FileManager::addAdmin': function does not take 1 arguments
+  (compiling source file 'Admin.cpp')
+      C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FileManager.h(17,8):
+      see declaration of 'FileManager::addAdmin'
+      C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FileManager.h(62,5):
+      while trying to match the argument list '()'
+  
+  ClientManger.cpp
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\DataSourceInterface.h(11,30): error C2061: syntax error: identifier 'Employee'
+  (compiling source file 'ClientManger.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\DataSourceInterface.h(12,27): error C2061: syntax error: identifier 'Admin'
+  (compiling source file 'ClientManger.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Parser.h(47,21): error C3646: 'parseToEmployee': unknown override specifier
+  (compiling source file 'ClientManger.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Parser.h(47,37): error C2275: 'std::string': expected an expression instead of a type
+  (compiling source file 'ClientManger.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Parser.h(47,44): error C2146: syntax error: missing ')' before identifier 'line'
+  (compiling source file 'ClientManger.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Parser.h(47,50): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+  (compiling source file 'ClientManger.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Parser.h(61,18): error C3646: 'parseToAdmin': unknown override specifier
+  (compiling source file 'ClientManger.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Parser.h(61,31): error C2275: 'std::string': expected an expression instead of a type
+  (compiling source file 'ClientManger.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Parser.h(61,38): error C2146: syntax error: missing ')' before identifier 'line'
+  (compiling source file 'ClientManger.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Parser.h(61,44): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+  (compiling source file 'ClientManger.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FilesHelper.h(53,28): error C2061: syntax error: identifier 'Employee'
+  (compiling source file 'ClientManger.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FilesHelper.h(66,24): error C2061: syntax error: identifier 'Admin'
+  (compiling source file 'ClientManger.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FilesHelper.h(58,33): error C2065: 'e': undeclared identifier
+  (compiling source file 'ClientManger.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FilesHelper.h(58,55): error C2065: 'e': undeclared identifier
+  (compiling source file 'ClientManger.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FilesHelper.h(58,81): error C2065: 'e': undeclared identifier
+  (compiling source file 'ClientManger.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FilesHelper.h(71,30): error C2065: 'e': undeclared identifier
+  (compiling source file 'ClientManger.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FilesHelper.h(71,52): error C2065: 'e': undeclared identifier
+  (compiling source file 'ClientManger.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FilesHelper.h(71,78): error C2065: 'e': undeclared identifier
+  (compiling source file 'ClientManger.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FilesHelper.h(102,22): error C2039: 'parseToEmployee': is not a member of 'Parser'
+  (compiling source file 'ClientManger.cpp')
+      C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Parser.h(13,7):
+      see declaration of 'Parser'
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FilesHelper.h(102,22): error C3861: 'parseToEmployee': identifier not found
+  (compiling source file 'ClientManger.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FilesHelper.h(103,5): error C2065: 'AllEmployees': undeclared identifier
+  (compiling source file 'ClientManger.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FilesHelper.h(117,22): error C2039: 'parseToAdmin': is not a member of 'Parser'
+  (compiling source file 'ClientManger.cpp')
+      C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Parser.h(13,7):
+      see declaration of 'Parser'
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FilesHelper.h(117,22): error C3861: 'parseToAdmin': identifier not found
+  (compiling source file 'ClientManger.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FilesHelper.h(118,5): error C2065: 'AllAdmins': undeclared identifier
+  (compiling source file 'ClientManger.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FileManager.h(13,20): error C2061: syntax error: identifier 'Employee'
+  (compiling source file 'ClientManger.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FileManager.h(17,17): error C2061: syntax error: identifier 'Admin'
+  (compiling source file 'ClientManger.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FileManager.h(14,30): error C2065: 'e': undeclared identifier
+  (compiling source file 'ClientManger.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FileManager.h(18,26): error C2065: 'a': undeclared identifier
+  (compiling source file 'ClientManger.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FileManager.h(52,24): error C2065: 'AllEmployees': undeclared identifier
+  (compiling source file 'ClientManger.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FileManager.h(54,17): error C2065: 'AllEmployees': undeclared identifier
+  (compiling source file 'ClientManger.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FileManager.h(54,5): error C2660: 'FileManager::addEmployee': function does not take 1 arguments
+  (compiling source file 'ClientManger.cpp')
+      C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FileManager.h(13,8):
+      see declaration of 'FileManager::addEmployee'
+      C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FileManager.h(54,5):
+      while trying to match the argument list '()'
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FileManager.h(60,24): error C2065: 'AllAdmins': undeclared identifier
+  (compiling source file 'ClientManger.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FileManager.h(62,14): error C2065: 'AllAdmins': undeclared identifier
+  (compiling source file 'ClientManger.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FileManager.h(62,5): error C2660: 'FileManager::addAdmin': function does not take 1 arguments
+  (compiling source file 'ClientManger.cpp')
+      C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FileManager.h(17,8):
+      see declaration of 'FileManager::addAdmin'
+      C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FileManager.h(62,5):
+      while trying to match the argument list '()'
+  
+  DataSourceInterface.cpp
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Parser.h(47,21): error C3646: 'parseToEmployee': unknown override specifier
+  (compiling source file 'DataSourceInterface.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Parser.h(47,37): error C2275: 'std::string': expected an expression instead of a type
+  (compiling source file 'DataSourceInterface.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Parser.h(47,44): error C2146: syntax error: missing ')' before identifier 'line'
+  (compiling source file 'DataSourceInterface.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Parser.h(47,50): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+  (compiling source file 'DataSourceInterface.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Parser.h(61,18): error C3646: 'parseToAdmin': unknown override specifier
+  (compiling source file 'DataSourceInterface.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Parser.h(61,31): error C2275: 'std::string': expected an expression instead of a type
+  (compiling source file 'DataSourceInterface.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Parser.h(61,38): error C2146: syntax error: missing ')' before identifier 'line'
+  (compiling source file 'DataSourceInterface.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Parser.h(61,44): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+  (compiling source file 'DataSourceInterface.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FilesHelper.h(53,28): error C2061: syntax error: identifier 'Employee'
+  (compiling source file 'DataSourceInterface.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FilesHelper.h(66,24): error C2061: syntax error: identifier 'Admin'
+  (compiling source file 'DataSourceInterface.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FilesHelper.h(58,33): error C2065: 'e': undeclared identifier
+  (compiling source file 'DataSourceInterface.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FilesHelper.h(58,55): error C2065: 'e': undeclared identifier
+  (compiling source file 'DataSourceInterface.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FilesHelper.h(58,81): error C2065: 'e': undeclared identifier
+  (compiling source file 'DataSourceInterface.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FilesHelper.h(71,30): error C2065: 'e': undeclared identifier
+  (compiling source file 'DataSourceInterface.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FilesHelper.h(71,52): error C2065: 'e': undeclared identifier
+  (compiling source file 'DataSourceInterface.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FilesHelper.h(71,78): error C2065: 'e': undeclared identifier
+  (compiling source file 'DataSourceInterface.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FilesHelper.h(102,22): error C2039: 'parseToEmployee': is not a member of 'Parser'
+  (compiling source file 'DataSourceInterface.cpp')
+      C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Parser.h(13,7):
+      see declaration of 'Parser'
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FilesHelper.h(102,22): error C3861: 'parseToEmployee': identifier not found
+  (compiling source file 'DataSourceInterface.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FilesHelper.h(103,5): error C2065: 'AllEmployees': undeclared identifier
+  (compiling source file 'DataSourceInterface.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FilesHelper.h(117,22): error C2039: 'parseToAdmin': is not a member of 'Parser'
+  (compiling source file 'DataSourceInterface.cpp')
+      C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Parser.h(13,7):
+      see declaration of 'Parser'
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FilesHelper.h(117,22): error C3861: 'parseToAdmin': identifier not found
+  (compiling source file 'DataSourceInterface.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FilesHelper.h(118,5): error C2065: 'AllAdmins': undeclared identifier
+  (compiling source file 'DataSourceInterface.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FileManager.h(6,28): error C2504: 'DataSourceInterface': base class undefined
+  (compiling source file 'DataSourceInterface.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FileManager.h(13,20): error C2061: syntax error: identifier 'Employee'
+  (compiling source file 'DataSourceInterface.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FileManager.h(17,17): error C2061: syntax error: identifier 'Admin'
+  (compiling source file 'DataSourceInterface.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FileManager.h(14,30): error C2065: 'e': undeclared identifier
+  (compiling source file 'DataSourceInterface.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FileManager.h(18,26): error C2065: 'a': undeclared identifier
+  (compiling source file 'DataSourceInterface.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FileManager.h(52,24): error C2065: 'AllEmployees': undeclared identifier
+  (compiling source file 'DataSourceInterface.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FileManager.h(54,17): error C2065: 'AllEmployees': undeclared identifier
+  (compiling source file 'DataSourceInterface.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FileManager.h(54,5): error C2660: 'FileManager::addEmployee': function does not take 1 arguments
+  (compiling source file 'DataSourceInterface.cpp')
+      C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FileManager.h(13,8):
+      see declaration of 'FileManager::addEmployee'
+      C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FileManager.h(54,5):
+      while trying to match the argument list '()'
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FileManager.h(60,24): error C2065: 'AllAdmins': undeclared identifier
+  (compiling source file 'DataSourceInterface.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FileManager.h(62,14): error C2065: 'AllAdmins': undeclared identifier
+  (compiling source file 'DataSourceInterface.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FileManager.h(62,5): error C2660: 'FileManager::addAdmin': function does not take 1 arguments
+  (compiling source file 'DataSourceInterface.cpp')
+      C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FileManager.h(17,8):
+      see declaration of 'FileManager::addAdmin'
+      C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FileManager.h(62,5):
+      while trying to match the argument list '()'
+  
+  Employee.cpp
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(6,21): error C2504: 'Employee': base class undefined
+  (compiling source file 'Employee.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(19,19): error C2061: syntax error: identifier 'Employee'
+  (compiling source file 'Employee.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(26,10): error C2143: syntax error: missing ';' before '*'
+  (compiling source file 'Employee.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(26,2): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Employee.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(26,35): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+  (compiling source file 'Employee.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(11,5): error C2614: 'Admin': illegal member initialization: 'Employee' is not a base or member
+  (compiling source file 'Employee.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(13,5): error C2614: 'Admin': illegal member initialization: 'Employee' is not a base or member
+  (compiling source file 'Employee.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(20,3): error C2065: 'FileManager': undeclared identifier
+  (compiling source file 'Employee.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(20,15): error C2146: syntax error: missing ';' before identifier 'x'
+  (compiling source file 'Employee.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(20,15): error C2065: 'x': undeclared identifier
+  (compiling source file 'Employee.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(22,3): error C2065: 'AllEmployees': undeclared identifier
+  (compiling source file 'Employee.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(22,26): error C2065: 'c': undeclared identifier
+  (compiling source file 'Employee.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(23,3): error C2065: 'x': undeclared identifier
+  (compiling source file 'Employee.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(36,7): error C2065: 'AllEmployees': undeclared identifier
+  (compiling source file 'Employee.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(41,23): error C2065: 'AllEmployees': undeclared identifier
+  (compiling source file 'Employee.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(42,4): error C2065: 'AllEmployees': undeclared identifier
+  (compiling source file 'Employee.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(47,3): error C2065: 'FileManager': undeclared identifier
+  (compiling source file 'Employee.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(47,15): error C2146: syntax error: missing ';' before identifier 'x'
+  (compiling source file 'Employee.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(47,15): error C2065: 'x': undeclared identifier
+  (compiling source file 'Employee.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(49,3): error C2065: 'Employee': undeclared identifier
+  (compiling source file 'Employee.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(49,13): error C2065: 'employee': undeclared identifier
+  (compiling source file 'Employee.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(49,24): error C3861: 'searchEmployee': identifier not found
+  (compiling source file 'Employee.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(50,7): error C2065: 'employee': undeclared identifier
+  (compiling source file 'Employee.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(51,4): error C2065: 'employee': undeclared identifier
+  (compiling source file 'Employee.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(52,4): error C2065: 'employee': undeclared identifier
+  (compiling source file 'Employee.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(53,4): error C2065: 'employee': undeclared identifier
+  (compiling source file 'Employee.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(59,3): error C2065: 'x': undeclared identifier
+  (compiling source file 'Employee.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\DataSourceInterface.h(11,30): error C2061: syntax error: identifier 'Employee'
+  (compiling source file 'Employee.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Parser.h(47,21): error C3646: 'parseToEmployee': unknown override specifier
+  (compiling source file 'Employee.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Parser.h(47,37): error C2275: 'std::string': expected an expression instead of a type
+  (compiling source file 'Employee.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Parser.h(47,44): error C2146: syntax error: missing ')' before identifier 'line'
+  (compiling source file 'Employee.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Parser.h(47,50): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+  (compiling source file 'Employee.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FilesHelper.h(53,28): error C2061: syntax error: identifier 'Employee'
+  (compiling source file 'Employee.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FilesHelper.h(58,33): error C2065: 'e': undeclared identifier
+  (compiling source file 'Employee.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FilesHelper.h(58,55): error C2065: 'e': undeclared identifier
+  (compiling source file 'Employee.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FilesHelper.h(58,81): error C2065: 'e': undeclared identifier
+  (compiling source file 'Employee.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FilesHelper.h(71,32): error C2039: 'getName': is not a member of 'Admin'
+  (compiling source file 'Employee.cpp')
+      C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(6,7):
+      see declaration of 'Admin'
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FilesHelper.h(71,54): error C2039: 'getPassword': is not a member of 'Admin'
+  (compiling source file 'Employee.cpp')
+      C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(6,7):
+      see declaration of 'Admin'
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FilesHelper.h(71,80): error C2039: 'getSalary': is not a member of 'Admin'
+  (compiling source file 'Employee.cpp')
+      C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(6,7):
+      see declaration of 'Admin'
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FilesHelper.h(102,22): error C2039: 'parseToEmployee': is not a member of 'Parser'
+  (compiling source file 'Employee.cpp')
+      C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Parser.h(13,7):
+      see declaration of 'Parser'
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FilesHelper.h(102,22): error C3861: 'parseToEmployee': identifier not found
+  (compiling source file 'Employee.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FilesHelper.h(103,5): error C2065: 'AllEmployees': undeclared identifier
+  (compiling source file 'Employee.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FileManager.h(13,20): error C2061: syntax error: identifier 'Employee'
+  (compiling source file 'Employee.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FileManager.h(14,30): error C2065: 'e': undeclared identifier
+  (compiling source file 'Employee.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FileManager.h(52,24): error C2065: 'AllEmployees': undeclared identifier
+  (compiling source file 'Employee.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FileManager.h(54,17): error C2065: 'AllEmployees': undeclared identifier
+  (compiling source file 'Employee.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FileManager.h(54,5): error C2660: 'FileManager::addEmployee': function does not take 1 arguments
+  (compiling source file 'Employee.cpp')
+      C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FileManager.h(13,8):
+      see declaration of 'FileManager::addEmployee'
+      C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FileManager.h(54,5):
+      while trying to match the argument list '()'
+  
+  FileManager.cpp
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Employee.h(52,3): error C2065: 'FileManager': undeclared identifier
+  (compiling source file 'FileManager.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Employee.h(52,15): error C2146: syntax error: missing ';' before identifier 'x'
+  (compiling source file 'FileManager.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Employee.h(52,15): error C2065: 'x': undeclared identifier
+  (compiling source file 'FileManager.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Employee.h(54,3): error C2065: 'x': undeclared identifier
+  (compiling source file 'FileManager.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Employee.h(79,3): error C2065: 'FileManager': undeclared identifier
+  (compiling source file 'FileManager.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Employee.h(79,15): error C2146: syntax error: missing ';' before identifier 'x'
+  (compiling source file 'FileManager.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Employee.h(79,15): error C2065: 'x': undeclared identifier
+  (compiling source file 'FileManager.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Employee.h(90,3): error C2065: 'x': undeclared identifier
+  (compiling source file 'FileManager.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(20,3): error C2065: 'FileManager': undeclared identifier
+  (compiling source file 'FileManager.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(20,15): error C2146: syntax error: missing ';' before identifier 'x'
+  (compiling source file 'FileManager.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(20,15): error C2065: 'x': undeclared identifier
+  (compiling source file 'FileManager.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(23,3): error C2065: 'x': undeclared identifier
+  (compiling source file 'FileManager.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(47,3): error C2065: 'FileManager': undeclared identifier
+  (compiling source file 'FileManager.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(47,15): error C2146: syntax error: missing ';' before identifier 'x'
+  (compiling source file 'FileManager.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(47,15): error C2065: 'x': undeclared identifier
+  (compiling source file 'FileManager.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(59,3): error C2065: 'x': undeclared identifier
+  (compiling source file 'FileManager.cpp')
+  
   FilesHelper.cpp
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(6,21): error C2504: 'Employee': base class undefined
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(19,19): error C2061: syntax error: identifier 'Employee'
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(26,10): error C2143: syntax error: missing ';' before '*'
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(26,2): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(26,35): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(11,5): error C2614: 'Admin': illegal member initialization: 'Employee' is not a base or member
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(13,5): error C2614: 'Admin': illegal member initialization: 'Employee' is not a base or member
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(20,3): error C2065: 'FileManager': undeclared identifier
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(20,15): error C2146: syntax error: missing ';' before identifier 'x'
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(20,15): error C2065: 'x': undeclared identifier
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(22,3): error C2065: 'AllEmployees': undeclared identifier
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(22,26): error C2065: 'c': undeclared identifier
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(23,3): error C2065: 'x': undeclared identifier
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(36,7): error C2065: 'AllEmployees': undeclared identifier
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(41,23): error C2065: 'AllEmployees': undeclared identifier
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(42,4): error C2065: 'AllEmployees': undeclared identifier
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(47,3): error C2065: 'FileManager': undeclared identifier
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(47,15): error C2146: syntax error: missing ';' before identifier 'x'
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(47,15): error C2065: 'x': undeclared identifier
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(49,3): error C2065: 'Employee': undeclared identifier
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(49,13): error C2065: 'employee': undeclared identifier
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(49,24): error C3861: 'searchEmployee': identifier not found
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(50,7): error C2065: 'employee': undeclared identifier
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(51,4): error C2065: 'employee': undeclared identifier
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(52,4): error C2065: 'employee': undeclared identifier
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(53,4): error C2065: 'employee': undeclared identifier
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(59,3): error C2065: 'x': undeclared identifier
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\DataSourceInterface.h(11,30): error C2061: syntax error: identifier 'Employee'
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FileManager.h(13,20): error C2061: syntax error: identifier 'Employee'
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FileManager.h(11,3): error C2653: 'FilesHelper': is not a class or namespace name
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FileManager.h(11,16): error C3861: 'saveClient': identifier not found
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FileManager.h(14,3): error C2653: 'FilesHelper': is not a class or namespace name
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FileManager.h(14,30): error C2065: 'e': undeclared identifier
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FileManager.h(14,16): error C3861: 'saveEmployee': identifier not found
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FileManager.h(18,3): error C2653: 'FilesHelper': is not a class or namespace name
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FileManager.h(18,16): error C3861: 'saveAdmin': identifier not found
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FileManager.h(21,3): error C2653: 'FilesHelper': is not a class or namespace name
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FileManager.h(21,16): error C3861: 'getClients': identifier not found
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FileManager.h(24,3): error C2653: 'FilesHelper': is not a class or namespace name
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FileManager.h(24,16): error C3861: 'getEmployees': identifier not found
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FileManager.h(27,3): error C2653: 'FilesHelper': is not a class or namespace name
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FileManager.h(27,16): error C3861: 'getAdmins': identifier not found
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FileManager.h(31,3): error C2653: 'FilesHelper': is not a class or namespace name
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FileManager.h(31,16): error C3861: 'clearFile': identifier not found
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FileManager.h(34,3): error C2653: 'FilesHelper': is not a class or namespace name
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FileManager.h(34,16): error C3861: 'clearFile': identifier not found
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FileManager.h(37,3): error C2653: 'FilesHelper': is not a class or namespace name
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FileManager.h(37,16): error C3861: 'clearFile': identifier not found
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FileManager.h(52,24): error C2065: 'AllEmployees': undeclared identifier
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FileManager.h(54,17): error C2065: 'AllEmployees': undeclared identifier
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FileManager.h(54,5): error C2660: 'FileManager::addEmployee': function does not take 1 arguments
+  (compiling source file 'FilesHelper.cpp')
+      C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FileManager.h(13,8):
+      see declaration of 'FileManager::addEmployee'
+      C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FileManager.h(54,5):
+      while trying to match the argument list '()'
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FilesHelper.h(71,32): error C2039: 'getName': is not a member of 'Admin'
+  (compiling source file 'FilesHelper.cpp')
+      C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(6,7):
+      see declaration of 'Admin'
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FilesHelper.h(71,54): error C2039: 'getPassword': is not a member of 'Admin'
+  (compiling source file 'FilesHelper.cpp')
+      C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(6,7):
+      see declaration of 'Admin'
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FilesHelper.h(71,80): error C2039: 'getSalary': is not a member of 'Admin'
+  (compiling source file 'FilesHelper.cpp')
+      C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(6,7):
+      see declaration of 'Admin'
+  
+  Parser.cpp
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(6,21): error C2504: 'Employee': base class undefined
+  (compiling source file 'Parser.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(19,19): error C2061: syntax error: identifier 'Employee'
+  (compiling source file 'Parser.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(26,10): error C2143: syntax error: missing ';' before '*'
+  (compiling source file 'Parser.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(26,2): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Parser.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(26,35): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+  (compiling source file 'Parser.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(11,5): error C2614: 'Admin': illegal member initialization: 'Employee' is not a base or member
+  (compiling source file 'Parser.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(13,5): error C2614: 'Admin': illegal member initialization: 'Employee' is not a base or member
+  (compiling source file 'Parser.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(20,3): error C2065: 'FileManager': undeclared identifier
+  (compiling source file 'Parser.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(20,15): error C2146: syntax error: missing ';' before identifier 'x'
+  (compiling source file 'Parser.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(20,15): error C2065: 'x': undeclared identifier
+  (compiling source file 'Parser.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(22,3): error C2065: 'AllEmployees': undeclared identifier
+  (compiling source file 'Parser.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(22,26): error C2065: 'c': undeclared identifier
+  (compiling source file 'Parser.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(23,3): error C2065: 'x': undeclared identifier
+  (compiling source file 'Parser.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(36,7): error C2065: 'AllEmployees': undeclared identifier
+  (compiling source file 'Parser.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(41,23): error C2065: 'AllEmployees': undeclared identifier
+  (compiling source file 'Parser.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(42,4): error C2065: 'AllEmployees': undeclared identifier
+  (compiling source file 'Parser.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(47,3): error C2065: 'FileManager': undeclared identifier
+  (compiling source file 'Parser.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(47,15): error C2146: syntax error: missing ';' before identifier 'x'
+  (compiling source file 'Parser.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(47,15): error C2065: 'x': undeclared identifier
+  (compiling source file 'Parser.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(49,3): error C2065: 'Employee': undeclared identifier
+  (compiling source file 'Parser.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(49,13): error C2065: 'employee': undeclared identifier
+  (compiling source file 'Parser.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(49,24): error C3861: 'searchEmployee': identifier not found
+  (compiling source file 'Parser.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(50,7): error C2065: 'employee': undeclared identifier
+  (compiling source file 'Parser.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(51,4): error C2065: 'employee': undeclared identifier
+  (compiling source file 'Parser.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(52,4): error C2065: 'employee': undeclared identifier
+  (compiling source file 'Parser.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(53,4): error C2065: 'employee': undeclared identifier
+  (compiling source file 'Parser.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(59,3): error C2065: 'x': undeclared identifier
+  (compiling source file 'Parser.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\DataSourceInterface.h(11,30): error C2061: syntax error: identifier 'Employee'
+  (compiling source file 'Parser.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FilesHelper.h(53,28): error C2061: syntax error: identifier 'Employee'
+  (compiling source file 'Parser.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FilesHelper.h(58,33): error C2065: 'e': undeclared identifier
+  (compiling source file 'Parser.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FilesHelper.h(58,55): error C2065: 'e': undeclared identifier
+  (compiling source file 'Parser.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FilesHelper.h(58,81): error C2065: 'e': undeclared identifier
+  (compiling source file 'Parser.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FilesHelper.h(71,32): error C2039: 'getName': is not a member of 'Admin'
+  (compiling source file 'Parser.cpp')
+      C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(6,7):
+      see declaration of 'Admin'
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FilesHelper.h(71,54): error C2039: 'getPassword': is not a member of 'Admin'
+  (compiling source file 'Parser.cpp')
+      C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(6,7):
+      see declaration of 'Admin'
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FilesHelper.h(71,80): error C2039: 'getSalary': is not a member of 'Admin'
+  (compiling source file 'Parser.cpp')
+      C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(6,7):
+      see declaration of 'Admin'
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FilesHelper.h(87,14): error C2653: 'Parser': is not a class or namespace name
+  (compiling source file 'Parser.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FilesHelper.h(87,22): error C3861: 'parseToClient': identifier not found
+  (compiling source file 'Parser.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FilesHelper.h(102,14): error C2653: 'Parser': is not a class or namespace name
+  (compiling source file 'Parser.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FilesHelper.h(102,22): error C3861: 'parseToEmployee': identifier not found
+  (compiling source file 'Parser.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FilesHelper.h(103,5): error C2065: 'AllEmployees': undeclared identifier
+  (compiling source file 'Parser.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FilesHelper.h(117,14): error C2653: 'Parser': is not a class or namespace name
+  (compiling source file 'Parser.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FilesHelper.h(117,22): error C3861: 'parseToAdmin': identifier not found
+  (compiling source file 'Parser.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FileManager.h(13,20): error C2061: syntax error: identifier 'Employee'
+  (compiling source file 'Parser.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FileManager.h(14,30): error C2065: 'e': undeclared identifier
+  (compiling source file 'Parser.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FileManager.h(52,24): error C2065: 'AllEmployees': undeclared identifier
+  (compiling source file 'Parser.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FileManager.h(54,17): error C2065: 'AllEmployees': undeclared identifier
+  (compiling source file 'Parser.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FileManager.h(54,5): error C2660: 'FileManager::addEmployee': function does not take 1 arguments
+  (compiling source file 'Parser.cpp')
+      C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FileManager.h(13,8):
+      see declaration of 'FileManager::addEmployee'
+      C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FileManager.h(54,5):
+      while trying to match the argument list '()'
+  
   Project.cpp
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(6,21): error C2504: 'Employee': base class undefined
+  (compiling source file 'Project.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(19,19): error C2061: syntax error: identifier 'Employee'
+  (compiling source file 'Project.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(26,10): error C2143: syntax error: missing ';' before '*'
+  (compiling source file 'Project.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(26,2): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Project.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(26,35): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+  (compiling source file 'Project.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(11,5): error C2614: 'Admin': illegal member initialization: 'Employee' is not a base or member
+  (compiling source file 'Project.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(13,5): error C2614: 'Admin': illegal member initialization: 'Employee' is not a base or member
+  (compiling source file 'Project.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(20,3): error C2065: 'FileManager': undeclared identifier
+  (compiling source file 'Project.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(20,15): error C2146: syntax error: missing ';' before identifier 'x'
+  (compiling source file 'Project.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(20,15): error C2065: 'x': undeclared identifier
+  (compiling source file 'Project.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(22,3): error C2065: 'AllEmployees': undeclared identifier
+  (compiling source file 'Project.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(22,26): error C2065: 'c': undeclared identifier
+  (compiling source file 'Project.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(23,3): error C2065: 'x': undeclared identifier
+  (compiling source file 'Project.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(36,7): error C2065: 'AllEmployees': undeclared identifier
+  (compiling source file 'Project.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(41,23): error C2065: 'AllEmployees': undeclared identifier
+  (compiling source file 'Project.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(42,4): error C2065: 'AllEmployees': undeclared identifier
+  (compiling source file 'Project.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(47,3): error C2065: 'FileManager': undeclared identifier
+  (compiling source file 'Project.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(47,15): error C2146: syntax error: missing ';' before identifier 'x'
+  (compiling source file 'Project.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(47,15): error C2065: 'x': undeclared identifier
+  (compiling source file 'Project.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(49,3): error C2065: 'Employee': undeclared identifier
+  (compiling source file 'Project.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(49,13): error C2065: 'employee': undeclared identifier
+  (compiling source file 'Project.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(49,24): error C3861: 'searchEmployee': identifier not found
+  (compiling source file 'Project.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(50,7): error C2065: 'employee': undeclared identifier
+  (compiling source file 'Project.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(51,4): error C2065: 'employee': undeclared identifier
+  (compiling source file 'Project.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(52,4): error C2065: 'employee': undeclared identifier
+  (compiling source file 'Project.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(53,4): error C2065: 'employee': undeclared identifier
+  (compiling source file 'Project.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(59,3): error C2065: 'x': undeclared identifier
+  (compiling source file 'Project.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\DataSourceInterface.h(11,30): error C2061: syntax error: identifier 'Employee'
+  (compiling source file 'Project.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Parser.h(47,21): error C3646: 'parseToEmployee': unknown override specifier
+  (compiling source file 'Project.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Parser.h(47,37): error C2275: 'std::string': expected an expression instead of a type
+  (compiling source file 'Project.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Parser.h(47,44): error C2146: syntax error: missing ')' before identifier 'line'
+  (compiling source file 'Project.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Parser.h(47,50): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+  (compiling source file 'Project.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FilesHelper.h(53,28): error C2061: syntax error: identifier 'Employee'
+  (compiling source file 'Project.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FilesHelper.h(58,33): error C2065: 'e': undeclared identifier
+  (compiling source file 'Project.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FilesHelper.h(58,55): error C2065: 'e': undeclared identifier
+  (compiling source file 'Project.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FilesHelper.h(58,81): error C2065: 'e': undeclared identifier
+  (compiling source file 'Project.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FilesHelper.h(71,32): error C2039: 'getName': is not a member of 'Admin'
+  (compiling source file 'Project.cpp')
+      C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(6,7):
+      see declaration of 'Admin'
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FilesHelper.h(71,54): error C2039: 'getPassword': is not a member of 'Admin'
+  (compiling source file 'Project.cpp')
+      C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(6,7):
+      see declaration of 'Admin'
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FilesHelper.h(71,80): error C2039: 'getSalary': is not a member of 'Admin'
+  (compiling source file 'Project.cpp')
+      C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Admin.h(6,7):
+      see declaration of 'Admin'
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FilesHelper.h(102,22): error C2039: 'parseToEmployee': is not a member of 'Parser'
+  (compiling source file 'Project.cpp')
+      C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\Parser.h(13,7):
+      see declaration of 'Parser'
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FilesHelper.h(102,22): error C3861: 'parseToEmployee': identifier not found
+  (compiling source file 'Project.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FilesHelper.h(103,5): error C2065: 'AllEmployees': undeclared identifier
+  (compiling source file 'Project.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FileManager.h(13,20): error C2061: syntax error: identifier 'Employee'
+  (compiling source file 'Project.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FileManager.h(14,30): error C2065: 'e': undeclared identifier
+  (compiling source file 'Project.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FileManager.h(52,24): error C2065: 'AllEmployees': undeclared identifier
+  (compiling source file 'Project.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FileManager.h(54,17): error C2065: 'AllEmployees': undeclared identifier
+  (compiling source file 'Project.cpp')
+  
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FileManager.h(54,5): error C2660: 'FileManager::addEmployee': function does not take 1 arguments
+  (compiling source file 'Project.cpp')
+      C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FileManager.h(13,8):
+      see declaration of 'FileManager::addEmployee'
+      C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\FileManager.h(54,5):
+      while trying to match the argument list '()'
+  
   Generating Code...
-  Project.vcxproj -> C:\Users\amedy\Desktop\cs file\Route Project\Project\x64\Debug\Project.exe
