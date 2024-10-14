@@ -4,15 +4,13 @@
 #include "Admin.h"
 #include "FillData.h"
 #include"Employee.h"
-#include "FileManager.h"
+#include "FilesManager.h"
+
 using namespace std;
 
 class ClientManger
 {
-
-
-
-
+public:
 	static void printClientMenu() {
 		cout << "1- Show Balance.\n"
 			<< "2- Withdraw. \n"
@@ -22,14 +20,13 @@ class ClientManger
 			<< "6- Logout.\n";
 }
 	static void updatePassword(Person* p) {
-		FileManager x;
+		FilesManager x;
 		
 		string NewPass = FillData::enterPassword();
 
 		p->setPassword(NewPass);
 		
 		cout << "Password Updated successfully \n";
-		
 		x.updateClientsData();
 	}
 
@@ -73,8 +70,13 @@ class ClientManger
 			client->transferTo(to ,*(x.searchClient(id)));
 		case 5:
 			updatePassword(client);
-
+		case 6:
+			return false; 
+		default:
+			cout << "Invalid option.\n";
+			break;
 		}
+		return true;
 	}
 };
 

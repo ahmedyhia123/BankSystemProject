@@ -2,12 +2,8 @@
 #include <iostream>
 #include "Parser.h"
 
-#include "Client.h"
-#include "Employee.h"
-#include <fstream>
 
-#include <string>
-#include <sstream>
+
 
 
 using namespace std;
@@ -52,7 +48,7 @@ public:
 
 	static void saveEmployee( Employee e) {
 
-		ofstream saveEmployee("Employee.txt", ios::app);
+		ofstream saveEmployee("Employees.txt", ios::app);
 		if (saveEmployee.is_open()) {
 			int id = getLast("LastEmployeeId.txt") + 1;
 			saveEmployee << id << "-" << e.getName() << "-" << e.getPassword() << "-" << e.getSalary() << endl;
@@ -65,7 +61,7 @@ public:
 	}
 	static void saveAdmin(Admin e) {
 
-		ofstream saveAdmin("Admin.txt", ios::app);
+		ofstream saveAdmin("Admins.txt", ios::app);
 		if (saveAdmin.is_open()) {
 			int id = getLast("LastAdminId.txt") + 1;
 			saveAdmin << id << "-" << e.getName() << "-" << e.getPassword() << "-" << e.getSalary() << endl;
@@ -95,7 +91,7 @@ public:
 	}
 
 	static void getEmployees() {
-		ifstream EmployeesData("Employee.txt");
+		ifstream EmployeesData("Employees.txt");
 		if (EmployeesData.is_open()) {
 			string line;
 			while (getline(EmployeesData, line)) {

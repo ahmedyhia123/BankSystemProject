@@ -6,7 +6,7 @@ public:
 	static string enterName()
 	{
 		string name;
-		cout << "Please Enter Your Name..... \n";
+		cout << "Please Enter Client Name : \n";
 		cin >> name;
 		while (!Validation::validationName(name))
 		{
@@ -20,7 +20,7 @@ public:
 	static string enterPassword()
 	{
 		string password;
-		cout << "Please Enter Your Password..... \n";
+		cout << "Please Enter Client Password : \n";
 		cin >> password;
 		while (!Validation::validationPass(password))
 		{

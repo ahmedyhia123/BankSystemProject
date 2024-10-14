@@ -17,10 +17,10 @@ public:
 	//Methods
 
 	void addEmployee(Employee& c) {
-		FileManager x;
+		
 
 		AllEmployees.push_back(c);
-		x.updateEmployeesData();
+		
 	}
 
 	Employee* searchEmployee(int id) {
@@ -44,7 +44,7 @@ public:
 		}
 	}
 	void editEmployee(int id, string name, string password, double salary) {
-		FileManager x;
+		
 
 		Employee* employee = searchEmployee(id);
 		if (employee != nullptr) {
@@ -56,7 +56,7 @@ public:
 		else {
 			cout << "Employee with ID " << id << " not found.\n";
 		}
-		x.updateEmployeesData();
+		
 
 	}
 

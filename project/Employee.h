@@ -5,7 +5,6 @@
 #include<vector>
 #include "Validation.h"
 #include <utility>
-#include "FileManager.h"
 using namespace std;
 
 class Employee : public Person
@@ -49,9 +48,9 @@ public:
 		return salary;
 	}
 	void addClient(Client& c) {
-		FileManager x;
+	
 		AllClients.push_back(c);
-		x.updateClientsData();
+	
 	}
 
 	 Client* searchClient(int id) {
@@ -76,7 +75,6 @@ public:
 		}
 	}
 	void editClient(int id, string name, string password, double balance) {
-		FileManager x;
 		Client* client = searchClient(id);
 		if (client != nullptr) {
 			client->setName(name);
@@ -87,7 +85,7 @@ public:
 		else {
 			cout << "Client with ID " << id << " not found.\n";
 		}
-		x.updateClientsData();
+		
 	}
 	void displayInfo()
 	{
