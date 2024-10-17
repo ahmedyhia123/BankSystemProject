@@ -3,6 +3,7 @@
 #include "Employee.h"
 #include <utility>
 
+
 class Admin :public Employee
 {
 public:
@@ -10,7 +11,11 @@ public:
 	Admin(int id, string name, string password, double salary)
 		: Employee(id, name, password, salary) {};
 	Admin(string name, string password, double salary)
-		: Employee(name, password, salary) {};
+		: Employee(name, password, salary) {
+		
+	
+	
+	};
 
 
 

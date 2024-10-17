@@ -38,7 +38,7 @@ public:
 				return &AllClients[i];
 			}
 		}
-		cout << "Invalid Password or id.\n";
+		
 		return nullptr;
 	}
 
@@ -46,8 +46,13 @@ public:
 		int op, wd,dp,id;
 		double to;
 		Employee x;
+		FilesManager fm;
 		printClientMenu();
 		cin >> op;
+		while (op < 1 || op > 6) {
+			cout << "Invalid option." << endl;
+			cin >> op;
+		}
 		switch (op)
 		{
 		case 1:
@@ -56,10 +61,12 @@ public:
 			cout << "Enter The Withdraw amount: \n";
 			cin >> wd;
 			client->withdraw(wd);
+			fm.updateClientsData();
 		case 3:
 			cout << "Enter The Deposit amount : \n";
 			cin >> dp;
 			client->deposit(dp);
+			fm.updateClientsData();
 			
 		case 4:
 			cout << "Your Balance : " << client->getBalance() << endl << endl;
@@ -68,8 +75,10 @@ public:
 			cout << "Enter the transfer amount : \n";
 			cin >> to;
 			client->transferTo(to ,*(x.searchClient(id)));
+			fm.updateClientsData();
 		case 5:
 			updatePassword(client);
+			fm.updateClientsData();
 		case 6:
 			return false; 
 		default:

@@ -8,6 +8,7 @@
 class EmployeeManager
 
 {
+public:
 
     static void printEmployeeMenu() {
         cout << "1- Add New Client\n"
@@ -20,7 +21,6 @@ class EmployeeManager
     static void newClient(Employee* employee) {
         string name, pass;
         double balance;
-        FilesManager x;
         name = FillData::enterName();
         pass = FillData::enterPassword();
         balance = FillData::enterBalance();
@@ -32,7 +32,7 @@ class EmployeeManager
 
         FilesHelper::saveLast("LastClientId.txt", id);
     
-        x.updateClientsData();
+        
     }
     static void listAllClients(Employee* employee) {
 
@@ -65,23 +65,28 @@ class EmployeeManager
     }
 
     static Employee* login(int id, string password) {
-        for (int i = 0; i < AllAdmins.size(); i++) {
-            if (AllAdmins[i].getId() == id && AllAdmins[i].getPassword() == password) {
+        for (int i = 0; i < AllEmployees.size(); i++) {
+            if (AllEmployees[i].getId() == id && AllEmployees[i].getPassword() == password) {
 
-                return &AllAdmins[i];
+                return &AllEmployees[i];
             }
         }
-        cout << "Invalid Password or id.\n";
+        
         return nullptr;
     }
     static bool employeeOptions(Employee* employee) {
-        int option;
+        int op;
+        FilesManager x;
         printEmployeeMenu();
-        cin >> option;
-
-        switch (option) {
+        cin >> op;
+        while (op < 1 || op > 6) {
+            cout << "Invalid option." << endl;
+            cin >> op;
+        }
+        switch (op) {
         case 1:
             newClient(employee);
+            x.updateClientsData();
             break;
         case 2:
             listAllClients(employee);
@@ -91,6 +96,7 @@ class EmployeeManager
             break;
         case 4:
             editClientInfo(employee);
+            x.updateClientsData();
             break;
         case 5:
             return false; 

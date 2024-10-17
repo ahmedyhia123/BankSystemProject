@@ -22,15 +22,20 @@ public:
 	void getAllAdmins() {
 		FilesHelper::getAdmins();
 	}
+	void getAllData() {
+		getAllAdmins();
+		getAllEmployees();
+		getAllClients();
+	}
 
 	void removeAllClients() {
 		FilesHelper::clearFile("Clients.txt", "LastClientId.txt");
 	}
 	void removeAllEmployees() {
-		FilesHelper::clearFile("Employee.txt", "LastEmployeeId.txt");
+		FilesHelper::clearFile("Employees.txt", "LastEmployeeId.txt");
 	}
 	void removeAllAdmins() {
-		FilesHelper::clearFile("Admin.txt", "LastAdminId.txt");
+		FilesHelper::clearFile("Admins.txt", "LastAdminId.txt");
 	}
 
 	void updateClientsData() {
@@ -58,6 +63,12 @@ public:
 			addAdmin(AllAdmins[i]);
 
 		}
+	}
+	
+	void removeAllData() {
+		removeAllClients();
+		removeAllAdmins();
+		removeAllEmployees();
 	}
 
 };

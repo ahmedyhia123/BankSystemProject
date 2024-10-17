@@ -34,104 +34,84 @@ public:
 		return id;
 	}
 	static void saveClient(Client c) {
-		ofstream saveClient("Clients.txt", ios::app);
-		if (saveClient.is_open()) {
-			int id = getLast("LastClientId.txt") + 1;
-			saveClient << id << "-" << c.getName() << "-" << c.getPassword() << "-" << c.getBalance() << endl;
-			saveLast("LastClientId.txt", id);
-			saveClient.close();
-		}
-		else {
-			cout << "Can't open file\n";
-		}
+		ofstream saveClient;
+		saveClient.open("Clients.txt", ios::app);
+
+		int id = getLast("LastClientId.txt") + 1;
+		saveClient << id << "-" << c.getName() << "-" << c.getPassword() << "-" << c.getBalance() << endl;
+		saveLast("LastClientId.txt", id);
+		saveClient.close();
 	}
+	
+	
 
 	static void saveEmployee( Employee e) {
 
-		ofstream saveEmployee("Employees.txt", ios::app);
-		if (saveEmployee.is_open()) {
+		ofstream saveEmployee;
+		saveEmployee.open("Employees.txt", ios::app);
 			int id = getLast("LastEmployeeId.txt") + 1;
 			saveEmployee << id << "-" << e.getName() << "-" << e.getPassword() << "-" << e.getSalary() << endl;
 			saveLast("LastEmployeeId.txt", id);
 			saveEmployee.close();
-		}
-		else {
-			cout << "Can't open file\n";
-		}
+		
 	}
 	static void saveAdmin(Admin e) {
 
-		ofstream saveAdmin("Admins.txt", ios::app);
-		if (saveAdmin.is_open()) {
+		ofstream saveAdmin;
+		saveAdmin.open("Admins.txt", ios::app);
 			int id = getLast("LastAdminId.txt") + 1;
 			saveAdmin << id << "-" << e.getName() << "-" << e.getPassword() << "-" << e.getSalary() << endl;
-			saveLast("LastAdminId.txt", id);
+			FilesHelper::saveLast("LastAdminId.txt", id);
 			saveAdmin.close();
-		}
-		else {
-			cout << "Can't open file\n";
-		}
-
 
 	}
 
 	static void getClients() {
-		ifstream ClientsData("Clients.txt");
-		if (ClientsData.is_open()) {
-			string line;
-			while (getline(ClientsData, line)) {
-				auto a = Parser::parseToClient(line);
-				AllClients.push_back(a);
-			}
-		}
-		else {
-			cout << "Can't open file\n";
-		}
+		ifstream ClientsData;
+		ClientsData.open("Clients.txt");
+		string line;
+		while (getline(ClientsData, line)) {
+			auto a = Parser::parseToClient(line);
+			AllClients.push_back(a);
+		}	
 		ClientsData.close();
 	}
 
 	static void getEmployees() {
-		ifstream EmployeesData("Employees.txt");
-		if (EmployeesData.is_open()) {
+		ifstream EmployeesData;
+		EmployeesData.open("Employees.txt");
 			string line;
 			while (getline(EmployeesData, line)) {
 				auto a = Parser::parseToEmployee(line);
 				AllEmployees.push_back(a);
 			}
-		}
-		else {
-			cout << "Can't open file\n";
-		}
+		
+		
 		EmployeesData.close();
 	}
 
 	static void getAdmins() {
-		ifstream AdminsData("Admins.txt");
-		if (AdminsData.is_open()) {
+		ifstream AdminsData;
+		AdminsData.open("Admins.txt");
 			string line;
 			while (getline(AdminsData, line)) {
 				auto a = Parser::parseToAdmin(line);
 				AllAdmins.push_back(a);
 			}
-		}
-		else {
-			cout << "Can't open file\n";
-		}
+		
+		
 		AdminsData.close();
 	}
 
 	static void clearFile(string fileName, string lastIdFile) {
 
 
-		ofstream file(fileName, ios::trunc);
-		if (file.is_open()) {
+		ofstream file;
+		file.open(fileName, ios::trunc);
 
-			file.close();
-		}
-		else {
-			cout << "Can't open the file to clear contents.\n";
-		}
-
+		file.close();
+		
+		
 		saveLast(lastIdFile, 0);
 
 	}
