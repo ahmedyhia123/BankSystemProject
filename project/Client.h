@@ -71,16 +71,17 @@ public:
 			cout << "you don't have this balance !\n";
 		}
 	}
-	void transferTo(double amount, Client& recipient)
+	bool transferTo(double amount, Client& recipient)
 	{
 		if (amount <= balance && amount > 0)
 		{
 			withdraw(amount);
 			recipient.deposit(amount);
+			return true;
 		}
 		else
 		{
-			cout << " The balance is not enough !\n";
+			return false;
 		}
 	}
 	void checkBalance()

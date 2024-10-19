@@ -1,5 +1,11 @@
-﻿  EmployeeManager.cpp
+﻿  ClientManger.cpp
   Project.cpp
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\EmployeeManager.h(72,16): warning C4101: 'balance': unreferenced local variable
+  (compiling source file 'Project.cpp')
+  
   Screens.cpp
+C:\Users\amedy\Desktop\cs file\Route Project\Project\Project\EmployeeManager.h(72,16): warning C4101: 'balance': unreferenced local variable
+  (compiling source file 'Screens.cpp')
+  
   Generating Code...
   Project.vcxproj -> C:\Users\amedy\Desktop\cs file\Route Project\Project\x64\Debug\Project.exe

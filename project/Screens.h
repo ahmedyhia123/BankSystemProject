@@ -33,15 +33,15 @@ public:
 		bankName();
 		Sleep(6000);
 		system("cls");
-		system("Color 3e");
+		system("Color 1e");
 	}
 
 
 	static void loginOptions() {
-		cout << "\t\t\t\tLogin As \n\n";
-		cout << "1- Admin " << endl
-			<< "2- Employee " << endl
-			<< "3- Client " << endl;
+		cout << "1- Admin " << endl << endl
+			<< "2- Employee " << endl << endl
+			<< "3- Client " << endl ;
+		cout << "\n\nLogin As :\n";
 	}
 	static int loginAs() {
 		loginOptions();
@@ -54,17 +54,23 @@ public:
 		switch (op)
 		{
 		case 1:
+			system("cls");
 			return 1;
 		case 2 :
+			system("cls");
 			return 2;
 		case 3:
+			system("cls");
 			return 3;
 		}
 		return 0;
 	}
 
 	static void logout() {
+		system("cls");
 		cout << "Loging Out......\n";
+		Sleep(3000);
+		system("cls");
 		loginScreen(loginAs());
 	}
 	static void loginScreen(int c) {
@@ -73,6 +79,7 @@ public:
 		bool loginSuccessful = false;
 
 		while (!loginSuccessful) {
+			
 			cout << "Enter Your ID: \n";
 			cin >> id;
 			cout << "Enter Your Password: \n";
@@ -82,11 +89,13 @@ public:
 			case 1: {
 				Admin* admin = AdminManager::login(id, pass);
 				if (admin) {
+					system("cls");
 					loginSuccessful = true;
 					while (AdminManager::AdminOptions(admin)) {}
 					logout();
 				}
 				else {
+					system("cls");
 					cout << "Invalid Admin Password or ID. Please try again.\n";
 				}
 				break;
@@ -94,11 +103,13 @@ public:
 			case 2: {
 				Employee* employee = EmployeeManager::login(id, pass);
 				if (employee) {
+					system("cls");
 					loginSuccessful = true;
 					while (EmployeeManager::employeeOptions(employee)) {}
 					logout();
 				}
 				else {
+					system("cls");
 					cout << "Invalid Employee Password or ID. Please try again.\n";
 				}
 				break;
@@ -106,11 +117,13 @@ public:
 			case 3: {
 				Client* client = ClientManger::login(id, pass);
 				if (client) {
+					system("cls");
 					loginSuccessful = true;
 					while (ClientManger::clientOptions(client)) {}
 					logout();
 				}
 				else {
+					system("cls");
 					cout << "Invalid Client Password or ID. Please try again.\n";
 				}
 				break;

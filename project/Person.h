@@ -38,7 +38,6 @@ public:
 	void setName(string name)
 	{
 		while (!Validation::validationName(name)) {
-			cout << "Please Enter Valid name !" << endl;
 			getline(cin, name);
 		}
 		this->name = name;
@@ -47,7 +46,7 @@ public:
 	void setPassword(string password)
 	{
 		while (!Validation::validationPass(password)) {
-			cout << "Please Enter Valid password !" << endl;
+			
 			cin >> password;
 		}
 		this->password = password;
